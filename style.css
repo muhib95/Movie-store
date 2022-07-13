@@ -47,3 +47,49 @@ body{
   text-align: center;
   text-decoration: none;
 }
+.movie-title{
+  text-align: center;
+  color: white;
+  background-color: bisque;
+  padding: 5px;
+}
+.movie-list{
+display: flex;
+justify-content: space-around;
+}
+.movie{
+  background-color: darkgrey;
+  
+  /* margin-left: 5px;
+  margin-right: 5px; */
+  border: 1px solid red;
+  width: 250px;
+  height: 300px;
+}
+.movie img{
+ text-align: center;
+  width: 250px;
+  height: 100px;
+
+}
+.movie h3,p{
+  margin-left: 4px;
+text-align: left;
+}
+.movie a{
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 55px;
+  padding: 5px;
+  background-color: coral;
+  color: white;
+  -webkit-border-radius: 5p;
+  -moz-border-radius: 5p;
+  -ms-border-radius: 5p;
+  -o-border-radius: 5p;
+}
+footer{
+  text-align: center;
+  color: white;
+  background-color: black;
+}
